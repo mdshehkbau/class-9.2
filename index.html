@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class-9.2(Use Bootstrap)</title>
+    <!-- Link Font-Awesome File -->
+    <!-- Link Favicon File -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Link Bootstrap File -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Link CSS File (stylesheet) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li><a class="navbar-brand" href="#"><img src="img/alamsk.jpg" alt="man" width="30" height="30" ></a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">USG, Digital X-Ray</a></li>
+                            <li><a class="dropdown-item" href="#">Computerise Pathology</a></li>
+                            <li><a class="dropdown-item" href="#">64 Slice CT Scan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header text-align text-center header-dark bg-secondary color text-white" >
+        <div class="containet">
+            <div class="home_cont_main" style="height: 65vh; display: flex; justify-content: center; align-items: center;">
+                <div class="home_con">
+                    <h1>New Medicare Pathology Lab</h1>
+                    <p>A Mordern Computerized Pathological Lab....</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="card text-center">
+        <div class="card-header">
+          New Colection
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">MRI Machin</h5>
+          <a href=""><img src="img/mri.jpg#" alt="Machin"></a>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="flex" style="display: flex; justify-content: space-around" >
+            <div class="card" style="width: 18rem;">
+                <a href="#"><img src="img/usg.jpg" alt="USG"></a>
+                <div class="card-body text-black-50">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <a href="#"><img src="img/patho.jpg" alt="USG"></a>
+                <div class="card-body text-black-50">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <a href="#"><img src="img/x-ray.png" alt="USG"></a>
+                <div class="card-body text-black-50">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <a href="#"><img src="img/patho.jpg" alt="USG"></a>
+                <div class="card-body text-black-50">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="section">
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/director.jpeg" class="d-block w-100" alt="Person">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/15.jpeg" class="d-block w-100" alt="Pathology">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/13.jpeg" class="d-block w-100" alt="X-Ray">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </main>
+    <section class="services">
+        <div class="container">
+            <div class="physician text-align text-center" >
+                <h2>Our Physicans</h2>
+            </div>
+            <div class="flex" style="display: flex; justify-content: space-evenly" >
+                <div class="card" style="width: 18rem;">
+                    <a href="#"><img src="img/dami.jpg" alt="USG"></a>
+                    <div class="card-body text-black-50">
+                        <p class="card-text">Dr. Md Aminul Islam</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="#"><img src="img/dsi.png" alt="USG"></a>
+                    <div class="card-body text-black-50">
+                        <p class="card-text">Dr. Md Shafiqul Islam</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="#"><img src="img/dami.jpg" alt="USG"></a>
+                    <div class="card-body text-black-50">
+                        <p class="card-text">Dr. Md Shafiqul Islam</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="#"><img src="img/dsi.png" alt="USG"></a>
+                    <div class="card-body text-black-50">
+                        <p class="card-text">Dr. Md Shafiqul Islam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+
+    </footer>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
